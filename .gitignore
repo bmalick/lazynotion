@@ -1,0 +1,4 @@
+*.yaml
+*.yml
+keys.sh
+__pycache__
