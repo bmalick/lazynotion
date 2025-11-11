@@ -2,3 +2,5 @@
 *.yml
 keys.sh
 __pycache__
+*.log
+/.env

@@ -69,5 +69,6 @@ if __name__ == "__main__":
     )
 
     properties1[2].update(option="Novel")
-    book1.update(properties=[properties1[2]])
+    # book1.update(properties=[properties1[2]])
+    book_db.update_page(p=book1, properties=[properties1[2]])
 

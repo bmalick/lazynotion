@@ -102,13 +102,14 @@ class PropertyText(DataProperty):
         pass
 
 class PropertyNumber(DataProperty):
-    def __init__(self, name: str):
+    def __init__(self, name: str, number_format: str = "number"):
         super().__init__(name=name)
         self._number = None
+        self._number_format = number_format
 
     @property
     def init_data(self) -> Dict:
-        return {self.name: {"number": {}}}
+        return {self.name: {"number": {"format": self._number_format}}}
     
     def update(self, number: int) -> None:
         self._number = number
@@ -121,19 +122,35 @@ class PropertySelect(DataProperty):
     def __init__(self, name: str, options: List[Tuple[str,str]] = []):
         super().__init__(name=name)
         self.options = options
-        self._option = None
+        self._options = None
 
     @property
     def init_data(self) -> Dict:
         return {self.name: {"select": {"options": [{"name": n, "color": c} for n,c in self.options]}}}
 
-    # TODO
-    def update(self, option: str) -> None:
-        self._option = option
+    def update(self, options: List[str]) -> None:
+        self._options = options
 
     @property
     def data(self) -> Dict:
-        return {self.name: {"select": {"name": self._option}}}
+        return {self.name: {"select": {"name": self._options}}}
+
+class PropertyStatus(DataProperty):
+    def __init__(self, name: str, options: List[Tuple[str,str]] = []):
+        super().__init__(name=name)
+        self.options = options
+        self._options = None
+
+    @property
+    def init_data(self) -> Dict:
+        return {self.name: {"status": {"options": [{"name": n, "color": c} for n,c in self.options]}}}
+
+    def update(self, options: List[str]) -> None:
+        self._options = options
+
+    @property
+    def data(self) -> Dict:
+        return {self.name: {"status": {"name": self._options}}}
 
 class PropertyMultiSelect(DataProperty):
     def __init__(self, name: str, options: List[Tuple[str,str]] = []):
@@ -268,31 +285,37 @@ class PropertyPhonenumber(DataProperty):
         pass
 
 class PropertyFormula(DataProperty):
-    def __init__(self, name: str):
+    def __init__(self, name: str, formula: str = None):
         super().__init__(name=name)
+        self._formula = formula
 
     @property
     def init_data(self) -> Dict:
-        return {self.name: {"formula": {}}}
+        if self._formula is None:
+            return {self.name: {"formula": {}}}
+        return {self.name: {"formula": {"expression": self._formula}}}
+        
 
     # TODO
-    def update(self) -> None:
-        pass
+    def update(self, formula: str) -> None:
+        self._formula = formula
 
     @property
     def data(self) -> Dict:
-        pass
+        return {self.name: {"formula": {"expression": self._formula}}}
 
 class PropertyRelation(DataProperty):
-    def __init__(self, name: str, related_db_id: str, relation_ids: List[str] = []):
+    def __init__(self, name: str, related_db_id: str, relation_ids: List[str] = [], dual_prop: bool = True):
         super().__init__(name=name)
         self.related_db_id = related_db_id
         self._relation = [{"id": i} for i in relation_ids]
+        self.dual_prop = dual_prop
 
     @property
     def init_data(self) -> Dict:
-        # return {self.name: {"relation": {"database_id": self.related_db_id, "single_property": {}}}}
-        return {self.name: {"relation": {"database_id": self.related_db_id, "dual_property": {}}}}
+        if self.dual_prop:
+            return {self.name: {"relation": {"database_id": self.related_db_id, "dual_property": {}}}}
+        return {self.name: {"relation": {"database_id": self.related_db_id, "single_property": {}}}}
 
     def update(self, ids: List[str]) -> None:
         self._relation = [{"id": i} for i in ids]

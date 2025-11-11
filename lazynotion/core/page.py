@@ -17,6 +17,17 @@ class Page:
         self.parent_id = parent_id
         self.headers = auth.headers()
         self.logger = logger
+        self.title = None
+        self.url = None
+
+    def __str__(self):
+        return f"Database(title={self.title}, id={self.page_id}, parent={self.parent_id}, url={self.url})"
+
+    def log(self, message: str):
+        if self.logger is None:
+            print(message)
+        else:
+            self.logger.info(message)
 
     def create(self,
             add_in_db: bool,
@@ -57,19 +68,18 @@ class Page:
         try:
             response.raise_for_status()
             out = response.json()
-            new_id = out["id"]
-            new_url = out["url"]
-            if self.logger is not None:
-                self.logger.info(f"[Created page]: title={page_title}, id={new_id}, parent={self.parent_id}, url={new_url}")
-            self.page_id = new_id
+            self.page_id = out["id"]
+            self.url = out["url"]
+            self.page_id = out["id"]
+            self.title = page_title
+            self.log(f"[Page] Created: {self}")
             return out
         except:
             print(response.text)
     
     def retrieve(self) -> Dict:
         if self.page_id is None:
-            if self.logger is not None:
-                self.logger.info("No page to retrieve")
+            self.log("[Page] Nothing to retrieve")
             return
         else:
             response = requests.get(
@@ -91,8 +101,7 @@ class Page:
                             k_val = k_val[sub_type]
                     properties += f"    {k}: {k_val}\n".ljust(-4)
 
-                if self.logger is not None:
-                    self.logger.info(display.PAGE_RETRIEVE.format(**out, props=properties))
+                self.log(display.PAGE_RETRIEVE.format(**out, props=properties))
                 return out
             except:
                 print(response.text)
@@ -124,11 +133,10 @@ class Page:
         try:
             response.raise_for_status()
             out = response.json()
-            new_id = out["id"]
-            new_url = out["url"]
-            if self.logger is not None:
-                self.logger.info(f"[Updated page]: title={page_title}, id={new_id}, parent={self.parent_id}, url={new_url}")
-            self.page_id = new_id
+            self.page_id = out["id"]
+            self.url = out["url"]
+            self.title = page_title
+            self.log(f"[Page]: {self}")
             return out
         except:
             print(response.text)

@@ -1,10 +1,8 @@
-import yaml
+import os
 from typing import Dict
 
 def headers() -> Dict[str,str]:
-    with open("keys.yml", "r") as f:
-        api_key = yaml.safe_load(f)["notion_api_key"]
-
+    api_key = os.environ["NOTION_API_KEY"]
     return {
         "accept": "application/json",
         "Notion-Version": "2022-06-28",
@@ -12,3 +10,5 @@ def headers() -> Dict[str,str]:
         "Authorization": "Bearer %s" % api_key
     }
 
+if __name__ == "__main__":
+    print(headers())
