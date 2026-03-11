@@ -3,7 +3,7 @@ import logging
 import logging.config
 
 def get_logger(fname: str = "logs.log"):
-    with open("./lazynotion/configs/log.yml", "r") as f:
+    with open("./configs/log.yml", "r") as f:
         log_config_dict = yaml.safe_load(f)
     log_config_dict["handlers"]["file"]["filename"] = fname
     logging.config.dictConfig(log_config_dict)

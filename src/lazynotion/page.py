@@ -1,10 +1,11 @@
+import os
 import requests
 from typing import Dict, List
 
-
-from lazynotion.core import blocks
-from lazynotion.core import auth
-from lazynotion.core import display
+from src.lazynotion import blocks
+from src.lazynotion import auth
+from src.lazynotion import display
+from src.lazynotion import utils
 
 class Page:
     endpoint = "https://api.notion.com/v1/pages"
@@ -19,15 +20,16 @@ class Page:
         self.logger = logger
         self.title = None
         self.url = None
+        self.notion_account = utils.get_account_name()
 
     def __str__(self):
         return f"Database(title={self.title}, id={self.page_id}, parent={self.parent_id}, url={self.url})"
 
     def log(self, message: str):
         if self.logger is None:
-            print(message)
+            print(f"[Notion account={self.notion_account}] [Page] " + message)
         else:
-            self.logger.info(message)
+            self.logger.info(f"[Notion account={self.notion_account}] [Page] " + message)
 
     def create(self,
             add_in_db: bool,
@@ -72,14 +74,14 @@ class Page:
             self.url = out["url"]
             self.page_id = out["id"]
             self.title = page_title
-            self.log(f"[Page] Created: {self}")
+            self.log(f"Created: {self}")
             return out
         except:
             print(response.text)
     
     def retrieve(self) -> Dict:
         if self.page_id is None:
-            self.log("[Page] Nothing to retrieve")
+            self.log("Nothing to retrieve")
             return
         else:
             response = requests.get(
@@ -136,7 +138,7 @@ class Page:
             self.page_id = out["id"]
             self.url = out["url"]
             self.title = page_title
-            self.log(f"[Page]: {self}")
+            self.log(f"{self}")
             return out
         except:
             print(response.text)

@@ -1,0 +1,65 @@
+root_page: ROOT_PAGE
+
+databases:
+  - name: Leagues
+    icon: soccer
+    # cover: 
+    properties:
+      - block: Url
+        params:
+          name: Url
+  - name: Teams
+    icon: 
+    # cover: 
+    properties:
+      - block: Url
+        params:
+          name: Url
+      - block: Checkbox
+        params:
+          name: Follow
+  - name: Fixtures
+    icon: 
+    # cover: 
+    properties:
+      - block: Number
+        params:
+          name: Gameweek
+      - block: Date
+        params:
+          name: Date
+      - block: Checkbox
+        params:
+          name: Played
+  - name: Players
+    icon: user
+    properties:
+      - block: Text
+        params:
+          name: Nationality
+      - block: Select
+        params:
+          name: Position
+          options: [["Goalkeeper", "default"], ["Defender", "default"], ["Midfielder", "default"], ["Forward", "default"], ["Coach", "default"]]
+
+relations:
+  - db1: leagues
+    p1: Teams
+    db2: teams
+    p2: League
+  - db1: leagues
+    p1: Fixtures
+    db2: fixtures
+    p2: League
+  - db1: teams
+    p1: Home match
+    db2: fixtures
+    p2: Home Team
+  - db1: teams
+    p1: Away match
+    db2: fixtures
+    p2: Away Team
+  - db1: teams
+    p1: Players
+    db2: players
+    p2: Team

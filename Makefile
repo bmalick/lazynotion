@@ -1,6 +1,6 @@
 HOME_PROJECT := $(shell pwd)
 PYTHONPATH := $(PWD):$(PYTHONPATH)
-PYTHON := PYTHONPATH=$(PWD):$(PYTHONPATH) $(HOME_PROJECT)/.env/bin/python3
+PYTHON := PYTHONPATH=$(PWD):$(PYTHONPATH) /home/malick/miniconda3/envs/lazynotion/bin/python
 
 help:
 	@echo help

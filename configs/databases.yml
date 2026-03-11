@@ -1,0 +1,298 @@
+root_page: DATABASES_PAGE
+
+databases:
+  - name: tasks
+    icon: checkmark
+    properties:
+      - block: Date
+        params:
+          name: Date
+      - block: Select
+        params:
+          name: Priority
+          init_options: [["p1", "red"], ["p2", "blue"], ["p3", "green"], ["p4", "gray"]]
+      - block: Text
+        params:
+          name: Description
+      - block: Url
+        params:
+          name: Url
+      - block: Checkbox
+        params:
+          name: Completed
+
+  - name: projects
+    icon: folder
+    properties:
+      - block: Text
+        params:
+          name: Description
+      - block: Url
+        params:
+          name: Url
+      - block: Select
+        params:
+          name: Status
+          init_options: [["Not started", "default"], ["In progress", "blue"], ["On hold", "red"], ["Done", "green"]]
+      - block: Checkbox
+        params:
+          name: Archived
+      - block: Date
+        params:
+          name: Start date
+      - block: Date
+        params:
+          name: Deadline
+      - block: Createdtime
+        params:
+          name: Date creation
+
+  - name: bookmarks
+    icon: bookmark
+    properties:
+      - block: Text
+        params:
+          name: Description
+      - block: Url
+        params:
+          name: Url
+      - block: Select
+        params:
+          name: Status
+          init_options: [["Inbox", "default"], ["Read", "green"]]
+      - block: Select
+        params:
+          name: Type
+          init_options: [["blog", "gray"]]
+
+  - name: books
+    icon: book-closed
+    properties:
+      - block: Url
+        params:
+          name: Url
+      - block: Text
+        params:
+          name: Author
+      - block: MultiSelect
+        params:
+          name: Genre
+          init_options: [["Fiction", "default"], ["Sci-fi", "default"], ["Novel", "default"], ["Machine learning", "default"], ["Mathematics", "default"]]
+      - block: Date
+        params:
+          name: Start
+      - block: Date
+        params:
+          name: End
+      - block: Number
+        params:
+          name: Total pages
+      - block: Number
+        params:
+          name: Current page
+      - block: Formula
+        params:
+          name: Progress
+          formula: "prop('Current page') / prop('Total pages')"
+      - block: Formula
+        params:
+          name: Pages
+          formula: "format(prop('Current page')) + format('/') + format(prop('Total pages'))"
+      - block: Formula
+        params:
+          name: Duration reading
+          formula: "format(dateBetween(prop('End'), prop('Start'), 'days')) + ' days'"
+      - block: Select
+        params:
+          name: Priority
+          init_options: [["p1", "red"], ["p2", "blue"], ["p3", "green"], ["p4", "gray"]]
+      # - block: Status
+      - block: Select
+        params:
+          name: Status
+          init_options: [["To read", "gray"], ["Reading", "blue"], ["Dropped", "red"], ["Read", "green"]]
+      - block: Text
+        params:
+          name: Description
+
+  - name: book-quotes
+    icon: bookmark
+    properties:
+      - block: Text
+        params:
+          name: Text
+      # - block: 
+      #   params:
+      #     name: 
+  #
+  - name: meals
+    icon: dining
+    properties:
+      - block: Url
+        params:
+          name: Url
+      - block: Select
+        params:
+          name: Type
+          init_options: [["Iftar", "gray"], ["Kheud", "gray"], ["Diner", "gray"], ["Breakfeast", "gray"], ["Lunch", "gray"]]
+      # - block: 
+      #   params:
+      #     name: 
+
+  - name: media-hub
+    icon: movie-clapboard
+    properties:
+      # - block: Status
+      - block: Select
+        params:
+          name: Status
+          init_options: [["To start", "gray"], ["Break", "yellow"], ["Streaming", "blue"], ["Dropped", "red"], ["Completed", "green"]]
+      - block: Select
+        params:
+          name: Type
+          init_options: [["Anime", "default"], ["Movie", "default"], ["TV show", "default"]]
+      - block: Date
+        params:
+          name: Start
+      - block: Date
+        params:
+          name: End
+      - block: Text
+        params:
+          name: Notes
+      - block: Number
+        params:
+          name: Rating on 10
+      - block: Url
+        params:
+          name: Url
+
+  - name: work-applications
+    icon: briefcase
+    properties:
+      - block: Url
+        params:
+          name: Url
+      - block: Text
+        params:
+          name: Subject
+      - block: Select
+        params:
+          name: Status
+          init_options: [["To apply", "gray"], ["In talk", "blue"], ["Refused", "red"], ["Canceled", "red"], ["Succeded", "green"]]
+
+  - name: log-mangas
+    icon: book-closed
+    properties:
+      - block: Text
+        params:
+          name: Author
+      - block: Select
+        params:
+          name: Status
+          init_options: [["Not started", "default"], ["Reading", "blue"], ["Dropped", "red"], ["Completed", "green"]]
+      - block: Url
+        params:
+          name: Url
+      - block: Number
+        params:
+          name: Current chapter
+      - block: Number
+        params:
+          name: Number chapters
+      # - block: Formula
+      #   params:
+      #     name: Progress
+      #     # formula: "ifs(empty(prop('Current chapter')), 0, empty(prop('No. chapters')), 0, prop('Current chapter')/prop('No. chapters'))"
+      #     formula: "prop('Current chapter') / prop('Number chapters'))"
+      # - block: Formula
+      #   params:
+      #     name: Last chapter
+      #     formula: "'Last read chapter: ' + format(prop('Current chapter'))"
+
+  - name: stats-log-mangas
+    icon: formula
+
+
+  - name: quran
+    icon: book
+    properties:
+      - block: Number
+        params:
+          name: Number
+      - block: Checkbox
+        params:
+          name: Memorized
+      - block: Text
+        params:
+          name: Time recitation
+      - block: Number
+        params:
+          name: Time recitation in seconds
+      - block: Number
+        params:
+          name: Total ayahs
+      - block: Number
+        params:
+          name: Ayah
+      - block: Formula
+        params:
+          name: Progress
+          formula: "prop('Ayah')/prop('Total ayahs')"
+      - block: Url
+        params:
+          name: Surah info
+      - block: Url
+        params:
+          name: Url
+
+relations:
+  - db1: tasks
+    p1: Projects
+    db2: projects
+    p2: Tasks
+    dual_prop: true
+  - db1: book-quotes
+    p1: Books
+    db2: books
+    p2: Quotes
+    dual_prop: true
+  - db1: log-mangas
+    p1: Stats
+    db2: stats-log-mangas
+    p2: Mangas
+    dual_prop: true
+
+rollups:
+  - name: stats-log-mangas
+    properties:
+      - block: Rollup
+        params:
+          name: Status
+          rollup_property_name: Status
+          relation_property_name: Mangas
+          function: show_original
+      # - block: Formula
+      #   params:
+      #     name: No. titles
+      #     formula: "'All titles: ' + format(count(prop('Status')))"
+      # - block: Formula
+      #   params:
+      #     name: Progress
+      #     formula: "prop('Progress rollup')/count(prop('Status'))"
+      # - block: Formula
+      #   params:
+      #     name: Reading
+      #     formula: "'Reading: ' + filter(prop('Status'), current == 'Reading').length()"
+      # - block: Formula
+      #   params:
+      #     name: Completed
+      #     formula: "'Completed: ' + count(prop('Status'), current == 'Completed')"
+      # - block: Formula
+      #   params:
+      #     name: To start
+      #     formula: "'To start: ' + filter(prop('Status'), current == 'To start').length()"
+      # - block: Formula
+      #   params:
+      #     name: Dropped
+      #     formula: "'Dropped: ' + filter(prop('Status'), current == 'Dropped').length()"

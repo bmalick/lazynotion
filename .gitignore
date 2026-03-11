@@ -1,6 +1,6 @@
-*.yaml
-*.yml
 keys.sh
 __pycache__
 *.log
 /.env
+db-ids.yml
+db-ids.yaml

@@ -1,0 +1,78 @@
+root_page: ROOT_PAGE
+
+databases:
+  - name: Bank accounts
+    icon: credit-card
+    properties:
+      - block: Number
+        params:
+          name: Start
+          number_format: euro
+      - block: Number
+        params:
+          name: Current balance
+          number_format: euro
+
+  - name: Incomes
+    icon: arrow-up
+    properties:
+      - block: Number
+        params:
+          name: Amount
+          number_format: euro
+      - block: Date
+        params:
+          name: Date
+
+  - name: Expenses
+    icon: arrow-down
+    properties:
+      - block: Number
+        params:
+          name: Amount
+          number_format: euro
+      - block: Date
+        params:
+          name: Date
+      - block: Formula
+        params:
+          name: Month expense
+          # formula: 0 + toNumber(if(formatDate(now(), 'MMMM YYYY') == formatDate(prop('Date'), 'MMMM YYYY'), toNumber(prop('Amount')), 0))
+          formula: toNumber(if(and(month(now()) == month(prop('Date')), year(now()) == year(prop('Date'))), prop('Amount'), 0))
+
+  - name: Categorie expenses
+    icon: list
+    properties:
+      - block: Number
+        params:
+          name: Budget
+          # number_format: euro
+    update_properties:
+      - block: Rollup
+        params:
+          name: Month expenses
+          relation__name: Expenses
+          rollup__name: Month expense
+          function: sum
+      # - block: Formula
+      #   params:
+      #     name: Remaining
+      #     formula: 'prop("Budget") - prop("Month expenses")'
+
+relations:
+  - db1: bank_accounts
+    p1: Expenses
+    db2: expenses
+    p2: Account
+  - db1: bank_accounts
+    p1: Incomes
+    db2: incomes
+    p2: Account
+  - db1: categorie_expenses
+    p1: Expenses
+    db2: expenses
+    p2: Category
+  # - db1: 
+  #   p1: 
+  #   db2: 
+  #   p2: 

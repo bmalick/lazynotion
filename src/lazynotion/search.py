@@ -1,11 +1,11 @@
 import requests
 from typing import Dict, List, Tuple
 
-from lazynotion.core import blocks
-from lazynotion.core import auth
-from lazynotion.core import page
-from lazynotion.core import logs
-from lazynotion.core import icons
+from src.lazynotion import blocks
+from src.lazynotion import auth
+from src.lazynotion import page
+from src.lazynotion import logs
+from src.lazynotion import icons
 
 SEARCH_ENDPOINT = "https://api.notion.com/v1/search"
 

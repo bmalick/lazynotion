@@ -57,7 +57,7 @@ class Icon:
 
 class PageTitle:
     def __init__(self, title: str):
-        self.title = title
+        self._title = title
 
     @property
     def data(self) -> List[Dict]:
@@ -65,14 +65,14 @@ class PageTitle:
             {
                 "type": "text",
                 "text": {
-                    "content": self.title,
+                    "content": self._title,
                     "link": None,
                 }
             }
         ]
 
 class DataProperty:
-    def __init__(self, name: str):
+    def __init__(self, name: str, **kwargs):
         self.name = name
 
     @property
@@ -85,26 +85,26 @@ class DataProperty:
     def data(self) -> Dict:
         pass
 
-class PropertyText(DataProperty):
-    def __init__(self, name: str):
+class Text(DataProperty):
+    def __init__(self, name: str, text: str= None):
         super().__init__(name=name)
+        self._text = text
 
     @property
     def init_data(self) -> Dict:
         return {self.name: {"rich_text": {}}}
 
-    # TODO
     def update(self, text: str) -> None:
-        pass
+        self._text = text
 
     @property
     def data(self) -> Dict:
-        pass
+        return {self.name: {"rich_text": [{"type": "text", "text": {"content": self._text}}]}}
 
-class PropertyNumber(DataProperty):
-    def __init__(self, name: str, number_format: str = "number"):
+class Number(DataProperty):
+    def __init__(self, name: str, number: int = None, number_format: str = "number"):
         super().__init__(name=name)
-        self._number = None
+        self._number = number
         self._number_format = number_format
 
     @property
@@ -118,62 +118,39 @@ class PropertyNumber(DataProperty):
     def data(self) -> Dict:
         return {self.name: {"number": self._number}}
 
-class PropertySelect(DataProperty):
-    def __init__(self, name: str, options: List[Tuple[str,str]] = []):
+class Select(DataProperty):
+    _prop_name = "select"
+    def __init__(self, name: str, init_options: List[Tuple[str,str]] = [], options: List=None):
         super().__init__(name=name)
-        self.options = options
-        self._options = None
+        self.init_options = init_options
+        self._options = options
 
     @property
     def init_data(self) -> Dict:
-        return {self.name: {"select": {"options": [{"name": n, "color": c} for n,c in self.options]}}}
+        return {self.name: {self._prop_name: {"options": [{"name": n, "color": c} for n,c in self.init_options]}}}
 
     def update(self, options: List[str]) -> None:
         self._options = options
 
     @property
     def data(self) -> Dict:
-        return {self.name: {"select": {"name": self._options}}}
+        return {self.name: {self._prop_name: {"name": self._options}}}
+#
+class Status(Select):
+    _prop_name = "status"
+    def __init__(self, name: str, init_options: List[Tuple[str,str]] = [], options: List=None):
+        super().__init__(name=name, init_options=init_options, options=options)
 
-class PropertyStatus(DataProperty):
-    def __init__(self, name: str, options: List[Tuple[str,str]] = []):
+class MultiSelect(Select):
+    _prop_name = "multi_select"
+    def __init__(self, name: str, init_options: List[Tuple[str,str]] = [], options: List=None):
+        super().__init__(name=name, init_options=init_options, options=options)
+
+class Date(DataProperty):
+    def __init__(self, name: str, start: str = None, end: str = None):
         super().__init__(name=name)
-        self.options = options
-        self._options = None
-
-    @property
-    def init_data(self) -> Dict:
-        return {self.name: {"status": {"options": [{"name": n, "color": c} for n,c in self.options]}}}
-
-    def update(self, options: List[str]) -> None:
-        self._options = options
-
-    @property
-    def data(self) -> Dict:
-        return {self.name: {"status": {"name": self._options}}}
-
-class PropertyMultiSelect(DataProperty):
-    def __init__(self, name: str, options: List[Tuple[str,str]] = []):
-        super().__init__(name=name)
-        self.options = options
-
-    @property
-    def init_data(self) -> Dict:
-        return {self.name: {"multi_select": {"options": [{"name": n, "color": c} for n,c in self.options]}}}
-
-    # TODO
-    def update(self) -> None:
-        pass
-
-    @property
-    def data(self) -> Dict:
-        pass
-
-class PropertyDate(DataProperty):
-    def __init__(self, name: str):
-        super().__init__(name=name)
-        self._start = None
-        self._end = None
+        self._start = start
+        self._end = end
 
     @property
     def init_data(self) -> Dict:
@@ -188,103 +165,108 @@ class PropertyDate(DataProperty):
         return {self.name: {"date": {"start": self._start, "end": self._end}}}
 
 
-class PropertyPeople(DataProperty):
-    def __init__(self, name: str):
+class People(DataProperty):
+    def __init__(self, name: str, people: str = None):
         super().__init__(name=name)
+        self._people = people
 
     @property
     def init_data(self) -> Dict:
         return {self.name: {"people": {}}}
 
-    # TODO
-    def update(self) -> None:
-        pass
+    def update(self, people: str) -> None:
+        self._people = people
 
+    # TODO
     @property
     def data(self) -> Dict:
         pass
 
-class PropertyFile(DataProperty):
-    def __init__(self, name: str):
+class File(DataProperty):
+    def __init__(self, name: str, file: str = None):
         super().__init__(name=name)
+        self._file = file
 
     @property
     def init_data(self) -> Dict:
         return {self.name: {"file": {}}}
 
-    # TODO
-    def update(self) -> None:
-        pass
+    def update(self, file: str) -> None:
+        self._file = file
 
+    # TODO
     @property
     def data(self) -> Dict:
         pass
 
-class PropertyCheckbox(DataProperty):
-    def __init__(self, name: str):
+class Checkbox(DataProperty):
+    def __init__(self, name: str, checked: bool = False):
         super().__init__(name=name)
+        self._checked = checked
 
     @property
     def init_data(self) -> Dict:
         return {self.name: {"checkbox": {}}}
 
-    # TODO
-    def update(self) -> None:
-        pass
+    def update(self ,checked: bool) -> None:
+        self._checked = checked
 
+    # TODO
     @property
     def data(self) -> Dict:
         pass
 
-class PropertyUrl(DataProperty):
-    def __init__(self, name: str):
+class Url(DataProperty):
+    def __init__(self, name: str, url: str = {}):
         super().__init__(name=name)
+        self._url = url
 
     @property
     def init_data(self) -> Dict:
         return {self.name: {"url": {}}}
 
-    # TODO
-    def update(self) -> None:
-        pass
+    def update(self, url: str) -> None:
+        self._url = url
 
     @property
     def data(self) -> Dict:
-        pass
+        return {self.name: {"url": self._url}}
 
-class PropertyEmail(DataProperty):
-    def __init__(self, name: str):
+class Email(DataProperty):
+    def __init__(self, name: str, email: str = None):
         super().__init__(name=name)
+        self._email = email
 
     @property
     def init_data(self) -> Dict:
         return {self.name: {"email": {}}}
 
-    # TODO
-    def update(self) -> None:
-        pass
+    def update(self, email: str) -> None:
+        self._email = email
 
+    # TODO
     @property
     def data(self) -> Dict:
         pass
 
-class PropertyPhonenumber(DataProperty):
-    def __init__(self, name: str):
+class Phonenumber(DataProperty):
+    def __init__(self, name: str, phone_number: str = None):
         super().__init__(name=name)
+        self._phone_number = phone_number
 
     @property
     def init_data(self) -> Dict:
         return {self.name: {"phone_number": {}}}
 
-    # TODO
-    def update(self) -> None:
-        pass
+    def update(self, phone_number: str) -> None:
+        self._phone_number = phone_number
 
+    # TODO
     @property
     def data(self) -> Dict:
         pass
 
-class PropertyFormula(DataProperty):
+class Formula(DataProperty):
     def __init__(self, name: str, formula: str = None):
         super().__init__(name=name)
         self._formula = formula
@@ -294,9 +276,7 @@ class PropertyFormula(DataProperty):
         if self._formula is None:
             return {self.name: {"formula": {}}}
         return {self.name: {"formula": {"expression": self._formula}}}
-        
 
-    # TODO
     def update(self, formula: str) -> None:
         self._formula = formula
 
@@ -304,7 +284,7 @@ class PropertyFormula(DataProperty):
     def data(self) -> Dict:
         return {self.name: {"formula": {"expression": self._formula}}}
 
-class PropertyRelation(DataProperty):
+class Relation(DataProperty):
     def __init__(self, name: str, related_db_id: str, relation_ids: List[str] = [], dual_prop: bool = True):
         super().__init__(name=name)
         self.related_db_id = related_db_id
@@ -324,30 +304,31 @@ class PropertyRelation(DataProperty):
     def data(self) -> Dict:
         return {self.name: {"relation": self._relation}}
 
-class PropertyRollup(DataProperty):
+class Rollup(DataProperty):
     def __init__(self, name: str, rollup_property_name: str, relation_property_name: str, function: str):
         super().__init__(name=name)
-        self.rollup_property_name = rollup_property_name
-        self.relation_property_name = relation_property_name
-        self.function = function
+        self._rollup_property_name = rollup_property_name
+        self._relation_property_name = relation_property_name
+        self._function = function
 
     @property
     def init_data(self) -> Dict:
         return {self.name: {"rollup": {
-            "rollup_property_name": self.rollup_property_name,
-            "relation_property_name": self.relation_property_name,
-            "function": self.function,
+            "rollup_property_name": self._rollup_property_name,
+            "relation_property_name": self._relation_property_name,
+            "function": self._function,
         }}}
 
-    # TODO
-    def update(self) -> None:
-        pass
+    def update(self, rollup_property_name: str, relation_property_name: str, function: str) -> None:
+        self._rollup_property_name = rollup_property_name
+        self._relation_property_name = relation_property_name
+        self._function = function
 
     @property
-    def data(self) -> Dict:
-        pass
+    def data(self):
+        return
 
-class PropertyCreatedtime(DataProperty):
+class Createdtime(DataProperty):
     def __init__(self, name: str):
         super().__init__(name=name)
 
@@ -355,15 +336,14 @@ class PropertyCreatedtime(DataProperty):
     def init_data(self) -> Dict:
         return {self.name: {"created_time": {}}}
 
-    # TODO
     def update(self) -> None:
-        pass
+        return
 
     @property
     def data(self) -> Dict:
-        pass
+        return
 
-class PropertyLastEditedtime(DataProperty):
+class LastEditedtime(DataProperty):
     def __init__(self, name: str):
         super().__init__(name=name)
 
@@ -371,20 +351,19 @@ class PropertyLastEditedtime(DataProperty):
     def init_data(self) -> Dict:
         return {self.name: {"last_edited_time": {}}}
 
-    # TODO
     def update(self) -> None:
-        pass
+        return
 
     @property
-    def data(self) -> Dict:
-        pass
+    def data(self):
+        return
 
-class RenameProperty(DataProperty):
-    def __init__(self, current_name: str, new_name: str):
-        self.current_name = current_name
+class Rename(DataProperty):
+    def __init__(self, name: str, new_name: str):
+        super().__init__(name=name)
         self.new_name = new_name
 
     @property
     def data(self) -> Dict:
-        return {self.current_name: {"name": self.new_name}}
+        return {self.name: {"name": self.new_name}}
 
