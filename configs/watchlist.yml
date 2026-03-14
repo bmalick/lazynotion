@@ -1,0 +1,103 @@
+root_page: DATABASES_PAGE
+
+databases:
+  - name: media-hub
+    icon: movie-clapboard
+    properties:
+      # - block: Status
+      - block: Select
+        params:
+          name: Status
+          init_options: [["To start", "gray"], ["Break", "yellow"], ["Streaming", "blue"], ["Dropped", "red"], ["Completed", "green"]]
+      - block: Select
+        params:
+          name: Type
+          init_options: [["Anime", "default"], ["Movie", "default"], ["TV show", "default"]]
+      - block: Date
+        params:
+          name: Start
+      - block: Date
+        params:
+          name: End
+      - block: Text
+        params:
+          name: Notes
+      - block: Number
+        params:
+          name: Rating on 10
+      - block: Url
+        params:
+          name: Url
+
+  - name: log-mangas
+    icon: book-closed
+    properties:
+      - block: Text
+        params:
+          name: Author
+      - block: Select
+        params:
+          name: Status
+          init_options: [["Not started", "default"], ["Reading", "blue"], ["Dropped", "red"], ["Completed", "green"]]
+      - block: Url
+        params:
+          name: Url
+      - block: Number
+        params:
+          name: Current chapter
+      - block: Number
+        params:
+          name: Number chapters
+      # - block: Formula
+      #   params:
+      #     name: Progress
+      #     # formula: "ifs(empty(prop('Current chapter')), 0, empty(prop('No. chapters')), 0, prop('Current chapter')/prop('No. chapters'))"
+      #     formula: "prop('Current chapter') / prop('Number chapters'))"
+      # - block: Formula
+      #   params:
+      #     name: Last chapter
+      #     formula: "'Last read chapter: ' + format(prop('Current chapter'))"
+
+  - name: stats-log-mangas
+    icon: formula
+
+relations:
+  - db1: log-mangas
+    p1: Stats
+    db2: stats-log-mangas
+    p2: Mangas
+    dual_prop: true
+
+rollups:
+  - name: stats-log-mangas
+    properties:
+      - block: Rollup
+        params:
+          name: Status
+          rollup_property_name: Status
+          relation_property_name: Mangas
+          function: show_original
+      # - block: Formula
+      #   params:
+      #     name: No. titles
+      #     formula: "'All titles: ' + format(count(prop('Status')))"
+      # - block: Formula
+      #   params:
+      #     name: Progress
+      #     formula: "prop('Progress rollup')/count(prop('Status'))"
+      # - block: Formula
+      #   params:
+      #     name: Reading
+      #     formula: "'Reading: ' + filter(prop('Status'), current == 'Reading').length()"
+      # - block: Formula
+      #   params:
+      #     name: Completed
+      #     formula: "'Completed: ' + count(prop('Status'), current == 'Completed')"
+      # - block: Formula
+      #   params:
+      #     name: To start
+      #     formula: "'To start: ' + filter(prop('Status'), current == 'To start').length()"
+      # - block: Formula
+      #   params:
+      #     name: Dropped
+      #     formula: "'Dropped: ' + filter(prop('Status'), current == 'Dropped').length()"

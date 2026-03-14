@@ -1,507 +1,523 @@
-- name: Thon blanc à la Sénégalaise
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrq51u
-- name: Thon rouge à la Sénégalaise
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrt1s6
-- name: Sauce corned beef
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrpfkY
-- name: Sauce au poulet
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrVpkR
-- name: Sauce foie
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrCaGB
-- name: Pain Brochette
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrgN4j
-- name: Sauce petit pois
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrwpv7
-- name: Sauce viande hachée
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrcp2y
-- name: Sauce Ndambé rouge
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrcoek
-- name: Sauce Ndambé blanche
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrprfW
-- name: Pain accara & sauce rouge
-  type: Breakfast
-  url: https://vm.tiktok.com/ZNRPrTS1f
-# - name: Pain sardine
-#   type: Breakfast
-#   url: https://vm.tiktok.com/
-# - name: Mini pizza au jambon
-#   type: Apero
-#   url: https://vm.tiktok.com/ZNRPr
-# - name: Mini pizza au thon
-#   type: Apero
-#   url: https://vm.tiktok.com/ZNRPr
-# - name: Mini pizza au poulet
-#   type: Apero
-#   url: https://vm.tiktok.com/ZNRPr
-- name: Mini pizza à la viande hachée
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPrG3eo
-- name: Mini tacos poulet curry
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPrtkSP
-- name: Mini tacos panés
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPrVrnU
-# - name: Mini tacos viande
-#   type: Apero
-#   url: https://vm.tiktok.com/ZNRPr
-- name: Feuilleté à la viande hachée
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPr3DJC
-- name: Feuilleté au poulet
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPrgjMn
-- name: Feuilleté à la saucisse
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPrnp3Q
-- name: Mini croissants à la viande hachée
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPr7FCX
-- name: Mini croissants au saumon
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPheYw6
-- name: Croissants au jambon et au fromage
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPrcW4x
-# - name: Mini pizza rolls
-#   type: Apero
-#   url: https://vm.tiktok.com/ZNRPr
-- name: Buns farcis à la viande hachée
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPrGgcD
-- name: Buns farcis au poulet
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPr3tE6
-- name: Pastels au thon
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPrC7KD
-- name: Fataya à la viande
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPrV6Ua
-- name: Fataya au fromage et à la viande hachée
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhFpso
-- name: Crêpes à la viande hachée
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhkdFG
-- name: Crêpes jambon fromage, oeuf et béchamel
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhk8ee
-- name: Crêpes aux crevettes et béchamel
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhDmc7
-- name: Omelette jambon et légumes
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPh89Vc
-- name: Omelette au thon et légumes
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhLE19
-- name: Mini brochettes de poulet
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhfFPu
-- name: Mini brochettes de viande
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhAuGo
-- name: Chakchouka aux merguez
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhF4N3
-- name: Bagel à la dinde / au jambon
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhFy8u
-- name: Bagel au saumon / au thon
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhMcau
-# - name: Sandwich pain de mie et dinde
-#   type: Apero
-#   url: https://vm.tiktok.com/ZNRPr
-# - name: Sandwich pain de mie et poulet
-#   type: Apero
-#   url: https://vm.tiktok.com/ZNRPr
-- name: Bricks au poulet
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhSxEY
-- name: Bricks au poulet curry
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhjFKk
-- name: Bricks au thon & pommes de terre
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhku6B
-- name: Bricks à la viande
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhSatu
-- name: Samoussa au viande
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhd3LB
-# - name: Samoussa à la poulet
-#   type: Apero
-#   url: https://vm.tiktok.com/ZNRPr
-- name: Croque-monsieur
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhrqrF
-- name: Mini donut au poulet
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhdGwW
-- name: Croquettes au poulet
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhSV82
-- name: Croquettes au poulet
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhrNGQ
-# - name: Panini jambon
-#   type: Apero
-#   url: https://vm.tiktok.com/ZNRPr
-- name: Panini au thon
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhjUGN
-- name: Beignets de crevettes
-  type: Apero
-  url: https://vm.tiktok.com/ZNRPhUFmS
-- name: Salade thon et légumes (thon, laitue, oeuf dur, maïs, poivrons, tomate, concombre)
-  type: Ndogou
-  url: https://vm.tiktok.com/PNRPhyGS3
-- name: Salade caesar au poulet ( blanc de poulet, olives, tomate, oeuf dur, tomate)
-  type: Ndogou
-  url: https://vm.tiktok.com/ZNRPhaxEt
-- name: Salade avocat, tomate, sardine, oeuf et pomme de terre
-  type: Ndogou
-  url: https://vm.tiktok.com/ZNRPhPwBB
-# - name: Brochettes de poulet et légumes sautés
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-- name: Flan aux oeuf et légumes (oeuf, courgette, potiron, fromage, poivrons)
-  type: Ndogou
-  url: https://vm.tiktok.com/ZNRPhS9Hn
-- name: Muffins salés sans farine
-  type: Ndogou
-  url: https://vm.tiktok.com/ZNRPh5uCV
-- name: Muffins salés sans farine
-  type: Ndogou
-  url: https://vm.tiktok.com/ZNRPh68CL
-# - name: Galettes de légumes à la viande
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Galettes de légumes au thon
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Galettes de légumes au poulet
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Soupe yeel sénégalaise
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Soupe harira
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Velouté de potiron
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Velouté de courgettes
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Velouté de champignons
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Soupe aux fruits de mer
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Soupe au poulet
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Soupe aux vermicelles
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Plateau avocat, sardines, fromage, oeuf dur, tomate
-#   type: Ndogou
-#   url: https://vm.tiktok.com/
-# - name: Panier de viennoiseries
-#   type: Dessert
-  # url: https://vm.tiktok.com/
-- name: Cake au yaourt
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhBTrN
-- name: Cake marbré
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhrs64
-- name: Cake à l'orange
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhaxMe
-- name: Cake au citron
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhjA9Q
-- name: Cake au citron
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhDQrK
-- name: Cake au chocolat
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhArRw
-- name: Cake quatre-quarts
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhkVbG
-- name: Madeleines
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhjVGB
-- name: Madeleines au chocolat
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPh8tvB
-- name: Madeleines au chocolat
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhhsUd
-- name: Muffins au chocolat
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhNNBY
-# - name: Muffins aux fruits
-#   type: Dessert
-#   url: https://vm.tiktok.com/
-- name: Chaussons aux pommes
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhLHSd
-- name: Brownie au chocolat
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhDkFR
-- name: Banana bread
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhfAuk
-- name: Crêpes au chocolat
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhyDRL
-- name: Pancakes aux pépites de chocolat
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPh57eE
-# - name: Pancakes nature
-#   type: Dessert
-#   url: https://vm.tiktok.com/ZNRPh
-- name: Beignets au coco
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhFc6R
-- name: Beignets au nutella
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhLG3q
-- name: Pain perdu
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhDGK9
-- name: Gaufres
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPh6JYP
-- name: Gaufres
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPh2KxY
-- name: Assiette de fruits
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhm7c3
-- name: Salade de fruits
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhMXL8
-- name: Granola bowl au yaourt
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhMhhY
-- name: Bouillie de flocons d’avoine aux pommes
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhFaNY
-- name: Thiacry
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhRQJJ/
-- name: Lakh Arraw
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhyJet/
-- name: Lakh Sankhal
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhRWpA/
-- name: Ngalakh
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhML7J/
-- name: Fondé
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhupUU/
-- name: Rouye
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPh5x7V/
-- name: Sombi thiep
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhNmGe/
-- name: Sombi mbokk
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhdC96/
-- name: Sombi vermicelles
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhypwW/
-- name: Moukhamsa
-  type: Dessert
-  url: https://vm.tiktok.com/ZNRPhAbLv/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
-# - name: 
-#   type: 
-#   url: https://vm.tiktok.com/
+root_page: DATABASES_PAGE
+
+databases:
+  - name: meals
+    icon: dining
+    properties:
+      - block: Url
+        params:
+          name: Url
+      - block: Select
+        params:
+          name: Type
+          init_options: [["Iftar", "gray"], ["Kheud", "gray"], ["Diner", "gray"], ["Breakfeast", "gray"], ["Lunch", "gray"]]
+
+
+meals:
+  - name: Thon blanc à la Sénégalaise
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrq51u
+  - name: Thon rouge à la Sénégalaise
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrt1s6
+  - name: Sauce corned beef
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrpfkY
+  - name: Sauce au poulet
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrVpkR
+  - name: Sauce foie
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrCaGB
+  - name: Pain Brochette
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrgN4j
+  - name: Sauce petit pois
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrwpv7
+  - name: Sauce viande hachée
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrcp2y
+  - name: Sauce Ndambé rouge
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrcoek
+  - name: Sauce Ndambé blanche
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrprfW
+  - name: Pain accara & sauce rouge
+    type: Breakfast
+    url: https://vm.tiktok.com/ZNRPrTS1f
+  # - name: Pain sardine
+  #   type: Breakfast
+  #   url: https://vm.tiktok.com/
+  # - name: Mini pizza au jambon
+  #   type: Apero
+  #   url: https://vm.tiktok.com/ZNRPr
+  # - name: Mini pizza au thon
+  #   type: Apero
+  #   url: https://vm.tiktok.com/ZNRPr
+  # - name: Mini pizza au poulet
+  #   type: Apero
+  #   url: https://vm.tiktok.com/ZNRPr
+  - name: Mini pizza à la viande hachée
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPrG3eo
+  - name: Mini tacos poulet curry
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPrtkSP
+  - name: Mini tacos panés
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPrVrnU
+  # - name: Mini tacos viande
+  #   type: Apero
+  #   url: https://vm.tiktok.com/ZNRPr
+  - name: Feuilleté à la viande hachée
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPr3DJC
+  - name: Feuilleté au poulet
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPrgjMn
+  - name: Feuilleté à la saucisse
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPrnp3Q
+  - name: Mini croissants à la viande hachée
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPr7FCX
+  - name: Mini croissants au saumon
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPheYw6
+  - name: Croissants au jambon et au fromage
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPrcW4x
+  # - name: Mini pizza rolls
+  #   type: Apero
+  #   url: https://vm.tiktok.com/ZNRPr
+  - name: Buns farcis à la viande hachée
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPrGgcD
+  - name: Buns farcis au poulet
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPr3tE6
+  - name: Pastels au thon
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPrC7KD
+  - name: Fataya à la viande
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPrV6Ua
+  - name: Fataya au fromage et à la viande hachée
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhFpso
+  - name: Crêpes à la viande hachée
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhkdFG
+  - name: Crêpes jambon fromage, oeuf et béchamel
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhk8ee
+  - name: Crêpes aux crevettes et béchamel
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhDmc7
+  - name: Omelette jambon et légumes
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPh89Vc
+  - name: Omelette au thon et légumes
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhLE19
+  - name: Mini brochettes de poulet
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhfFPu
+  - name: Mini brochettes de viande
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhAuGo
+  - name: Chakchouka aux merguez
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhF4N3
+  - name: Bagel à la dinde / au jambon
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhFy8u
+  - name: Bagel au saumon / au thon
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhMcau
+  # - name: Sandwich pain de mie et dinde
+  #   type: Apero
+  #   url: https://vm.tiktok.com/ZNRPr
+  # - name: Sandwich pain de mie et poulet
+  #   type: Apero
+  #   url: https://vm.tiktok.com/ZNRPr
+  - name: Bricks au poulet
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhSxEY
+  - name: Bricks au poulet curry
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhjFKk
+  - name: Bricks au thon & pommes de terre
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhku6B
+  - name: Bricks à la viande
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhSatu
+  - name: Samoussa au viande
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhd3LB
+  # - name: Samoussa à la poulet
+  #   type: Apero
+  #   url: https://vm.tiktok.com/ZNRPr
+  - name: Croque-monsieur
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhrqrF
+  - name: Mini donut au poulet
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhdGwW
+  - name: Croquettes au poulet
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhSV82
+  - name: Croquettes au poulet
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhrNGQ
+  # - name: Panini jambon
+  #   type: Apero
+  #   url: https://vm.tiktok.com/ZNRPr
+  - name: Panini au thon
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhjUGN
+  - name: Beignets de crevettes
+    type: Apero
+    url: https://vm.tiktok.com/ZNRPhUFmS
+  - name: Salade thon et légumes (thon, laitue, oeuf dur, maïs, poivrons, tomate, concombre)
+    type: Ndogou
+    url: https://vm.tiktok.com/PNRPhyGS3
+  - name: Salade caesar au poulet ( blanc de poulet, olives, tomate, oeuf dur, tomate)
+    type: Ndogou
+    url: https://vm.tiktok.com/ZNRPhaxEt
+  - name: Salade avocat, tomate, sardine, oeuf et pomme de terre
+    type: Ndogou
+    url: https://vm.tiktok.com/ZNRPhPwBB
+  # - name: Brochettes de poulet et légumes sautés
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  - name: Flan aux oeuf et légumes (oeuf, courgette, potiron, fromage, poivrons)
+    type: Ndogou
+    url: https://vm.tiktok.com/ZNRPhS9Hn
+  - name: Muffins salés sans farine
+    type: Ndogou
+    url: https://vm.tiktok.com/ZNRPh5uCV
+  - name: Muffins salés sans farine
+    type: Ndogou
+    url: https://vm.tiktok.com/ZNRPh68CL
+  # - name: Galettes de légumes à la viande
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Galettes de légumes au thon
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Galettes de légumes au poulet
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Soupe yeel sénégalaise
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Soupe harira
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Velouté de potiron
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Velouté de courgettes
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Velouté de champignons
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Soupe aux fruits de mer
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Soupe au poulet
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Soupe aux vermicelles
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Plateau avocat, sardines, fromage, oeuf dur, tomate
+  #   type: Ndogou
+  #   url: https://vm.tiktok.com/
+  # - name: Panier de viennoiseries
+  #   type: Dessert
+    # url: https://vm.tiktok.com/
+  - name: Cake au yaourt
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhBTrN
+  - name: Cake marbré
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhrs64
+  - name: Cake à l'orange
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhaxMe
+  - name: Cake au citron
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhjA9Q
+  - name: Cake au citron
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhDQrK
+  - name: Cake au chocolat
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhArRw
+  - name: Cake quatre-quarts
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhkVbG
+  - name: Madeleines
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhjVGB
+  - name: Madeleines au chocolat
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPh8tvB
+  - name: Madeleines au chocolat
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhhsUd
+  - name: Muffins au chocolat
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhNNBY
+  # - name: Muffins aux fruits
+  #   type: Dessert
+  #   url: https://vm.tiktok.com/
+  - name: Chaussons aux pommes
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhLHSd
+  - name: Brownie au chocolat
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhDkFR
+  - name: Banana bread
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhfAuk
+  - name: Crêpes au chocolat
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhyDRL
+  - name: Pancakes aux pépites de chocolat
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPh57eE
+  # - name: Pancakes nature
+  #   type: Dessert
+  #   url: https://vm.tiktok.com/ZNRPh
+  - name: Beignets au coco
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhFc6R
+  - name: Beignets au nutella
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhLG3q
+  - name: Pain perdu
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhDGK9
+  - name: Gaufres
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPh6JYP
+  - name: Gaufres
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPh2KxY
+  - name: Assiette de fruits
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhm7c3
+  - name: Salade de fruits
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhMXL8
+  - name: Granola bowl au yaourt
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhMhhY
+  - name: Bouillie de flocons d’avoine aux pommes
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhFaNY
+  - name: Thiacry
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhRQJJ/
+  - name: Lakh Arraw
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhyJet/
+  - name: Lakh Sankhal
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhRWpA/
+  - name: Ngalakh
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhML7J/
+  - name: Fondé
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhupUU/
+  - name: Rouye
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPh5x7V/
+  - name: Sombi thiep
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhNmGe/
+  - name: Sombi mbokk
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhdC96/
+  - name: Sombi vermicelles
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhypwW/
+  - name: Moukhamsa
+    type: Dessert
+    url: https://vm.tiktok.com/ZNRPhAbLv/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/
+  # - name: 
+  #   type: 
+  #   url: https://vm.tiktok.com/

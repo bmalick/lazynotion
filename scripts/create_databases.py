@@ -1,12 +1,15 @@
 import os
-import sys
 import yaml
-from typing import Dict
+from argparse import ArgumentParser
 
 from src import lazynotion
 
 def main():
-    data_cfg = lazynotion.utils.read_yml("configs/databases.yml")
+    parser = ArgumentParser()
+    parser.add_argument("--config", "-c", required=True, type=str)
+    args = parser.parse_args()
+
+    data_cfg = lazynotion.utils.read_yml(args.config)
     root_page_id = os.environ[data_cfg["root_page"]]
     notion_account_name = lazynotion.utils.get_account_name()
 

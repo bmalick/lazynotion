@@ -1,4 +1,4 @@
-root_page: ROOT_PAGE
+root_page: DATABASES_PAGE
 
 databases:
   - name: Bank accounts

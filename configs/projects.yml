@@ -1,0 +1,73 @@
+root_page: DATABASES_PAGE
+
+databases:
+  - name: tasks
+    icon: checkmark
+    properties:
+      - block: Date
+        params:
+          name: Date
+      - block: Select
+        params:
+          name: Priority
+          init_options: [["p1", "red"], ["p2", "blue"], ["p3", "green"], ["p4", "gray"]]
+      - block: Text
+        params:
+          name: Description
+      - block: Url
+        params:
+          name: Url
+      - block: Checkbox
+        params:
+          name: Completed
+
+  - name: projects
+    icon: folder
+    properties:
+      - block: Text
+        params:
+          name: Description
+      - block: Url
+        params:
+          name: Url
+      - block: Select
+        params:
+          name: Status
+          init_options: [["Not started", "default"], ["In progress", "blue"], ["On hold", "red"], ["Done", "green"]]
+      - block: Checkbox
+        params:
+          name: Archived
+      - block: Date
+        params:
+          name: Start date
+      - block: Date
+        params:
+          name: Deadline
+      - block: Createdtime
+        params:
+          name: Date creation
+
+  - name: bookmarks
+    icon: bookmark
+    properties:
+      - block: Text
+        params:
+          name: Description
+      - block: Url
+        params:
+          name: Url
+      - block: Select
+        params:
+          name: Status
+          init_options: [["Inbox", "default"], ["Read", "green"]]
+      - block: Select
+        params:
+          name: Type
+          init_options: [["blog", "gray"]]
+
+relations:
+  - db1: tasks
+    p1: Projects
+    db2: projects
+    p2: Tasks
+    dual_prop: true

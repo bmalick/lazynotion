@@ -5,7 +5,7 @@ from src import lazynotion
 
 if __name__=="__main__":
     saved_ids = lazynotion.utils.get_db_ids(lazynotion.utils.get_account_name())
-    surahs = lazynotion.utils.read_yml("configs/quran.yml")
+    surahs = lazynotion.utils.read_yml("configs/quran.yml")["surahs"]
     surah_icon = lazynotion.icons.IconUrl(name="book_open")
 
     db_id = saved_ids["quran"]

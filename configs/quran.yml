@@ -1,684 +1,720 @@
-- number: 1
-  name: "Al-Fatihah"
-  total_ayahs: 7
-  info: https://quran.com/surah/1/info
-  url: https:quran.com/1
-  time: "00:52"
-- number: 2
-  name: "Al-Baqarah"
-  total_ayahs: 286
-  info: https://quran.com/surah/2/info
-  url: https:quran.com/2
-  time: "01:53:40"
-- number: 3
-  name: "Ali 'Imran"
-  total_ayahs: 200
-  info: https://quran.com/surah/3/info
-  url: https:quran.com/3
-  time: "01:04:54"
-- number: 4
-  name: "An-Nisa"
-  total_ayahs: 176
-  info: https://quran.com/surah/4/info
-  url: https:quran.com/4
-  time: "01:07:15"
-- number: 5
-  name: "Al-Ma'idah"
-  total_ayahs: 120
-  info: https://quran.com/surah/5/info
-  url: https:quran.com/5
-  time: "49:17"
-- number: 6
-  name: "Al-An'am"
-  total_ayahs: 165
-  info: https://quran.com/surah/6/info
-  url: https:quran.com/6
-  time: "52:19"
-- number: 7
-  name: "Al-A'raf"
-  total_ayahs: 206
-  info: https://quran.com/surah/7/info
-  url: https:quran.com/7
-  time: "01:02:55"
-- number: 8
-  name: "Al-Anfal"
-  total_ayahs: 75
-  info: https://quran.com/surah/8/info
-  url: https:quran.com/8
-  time: "22:59"
-- number: 9
-  name: "At-Tawbah"
-  total_ayahs: 129
-  info: https://quran.com/surah/9/info
-  url: https:quran.com/9
-  time: "44:20"
-- number: 10
-  name: "Yunus"
-  total_ayahs: 109
-  info: https://quran.com/surah/10/info
-  url: https:quran.com/10
-  time: "30:48"
-- number: 11
-  name: "Hud"
-  total_ayahs: 123
-  info: https://quran.com/surah/11/info
-  url: https:quran.com/11
-  time: "34:16"
-- number: 12
-  name: "Yusuf"
-  total_ayahs: 111
-  info: https://quran.com/surah/12/info
-  url: https:quran.com/12
-  time: "30:42"
-- number: 13
-  name: "Ar-Ra'd"
-  total_ayahs: 43
-  info: https://quran.com/surah/13/info
-  url: https:quran.com/13
-  time: "14:58"
-- number: 14
-  name: "Ibrahim"
-  total_ayahs: 52
-  info: https://quran.com/surah/14/info
-  url: https:quran.com/14
-  time: "16:22"
-- number: 15
-  name: "Al-Hijr"
-  total_ayahs: 99
-  info: https://quran.com/surah/15/info
-  url: https:quran.com/15
-  time: "12:42"
-- number: 16
-  name: "An-Nahl"
-  total_ayahs: 128
-  info: https://quran.com/surah/16/info
-  url: https:quran.com/16
-  time: "32:28"
-- number: 17
-  name: "Al-Isra"
-  total_ayahs: 111
-  info: https://quran.com/surah/17/info
-  url: https:quran.com/17
-  time: "26:22"
-- number: 18
-  name: "Al-Kahf"
-  total_ayahs: 110
-  info: https://quran.com/surah/18/info
-  url: https:quran.com/18
-  time: "25:57"
-- number: 19
-  name: "Maryam"
-  total_ayahs: 98
-  info: https://quran.com/surah/19/info
-  url: https:quran.com/19
-  time: "16:19"
-- number: 20
-  name: "Taha"
-  total_ayahs: 135
-  info: https://quran.com/surah/20/info
-  url: https:quran.com/20
-  time: "21:26"
-- number: 21
-  name: "Al-Anbya"
-  total_ayahs: 112
-  info: https://quran.com/surah/21/info
-  url: https:quran.com/21
-  time: "20:54"
-- number: 22
-  name: "Al-Haj"
-  total_ayahs: 78
-  info: https://quran.com/surah/22/info
-  url: https:quran.com/22
-  time: "21:42"
-- number: 23
-  name: "Al-Mu'minun"
-  total_ayahs: 118
-  info: https://quran.com/surah/23/info
-  url: https:quran.com/23
-  time: "18:52"
-- number: 24
-  name: "An-Nur"
-  total_ayahs: 64
-  info: https://quran.com/surah/24/info
-  url: https:quran.com/24
-  time: "22:55"
-- number: 25
-  name: "Al-Furqan"
-  total_ayahs: 77
-  info: https://quran.com/surah/25/info
-  url: https:quran.com/25
-  time: "15:34"
-- number: 26
-  name: "Ash-Shu'ara"
-  total_ayahs: 227
-  info: https://quran.com/surah/26/info
-  url: https:quran.com/26
-  time: "24:54"
-- number: 27
-  name: "An-Naml"
-  total_ayahs: 93
-  info: https://quran.com/surah/27/info
-  url: https:quran.com/27
-  time: "21:07"
-- number: 28
-  name: "Al-Qasas"
-  total_ayahs: 88
-  info: https://quran.com/surah/28/info
-  url: https:quran.com/28
-  time: "24:38"
-- number: 29
-  name: "Al-'Ankabut"
-  total_ayahs: 69
-  info: https://quran.com/surah/29/info
-  url: https:quran.com/29
-  time: "17:07"
-- number: 30
-  name: "Ar-Rum"
-  total_ayahs: 60
-  info: https://quran.com/surah/30/info
-  url: https:quran.com/30
-  time: "14:25"
-- number: 31
-  name: "Luqman"
-  total_ayahs: 34
-  info: https://quran.com/surah/31/info
-  url: https:quran.com/31
-  time: "09:14"
-- number: 32
-  name: "As-Sajdah"
-  total_ayahs: 30
-  info: https://quran.com/surah/32/info
-  url: https:quran.com/32
-  time: "07:26"
-- number: 33
-  name: "Al-Ahzab"
-  total_ayahs: 73
-  info: https://quran.com/surah/33/info
-  url: https:quran.com/33
-  time: "23:54"
-- number: 34
-  name: "Saba"
-  total_ayahs: 54
-  info: https://quran.com/surah/34/info
-  url: https:quran.com/34
-  time: "15:33"
-- number: 35
-  name: "Fatir"
-  total_ayahs: 45
-  info: https://quran.com/surah/35/info
-  url: https:quran.com/35
-  time: "15:15"
-- number: 36
-  name: "Ya-Sin"
-  total_ayahs: 83
-  info: https://quran.com/surah/36/info
-  url: https:quran.com/36
-  time: "13:00"
-- number: 37
-  name: "As-Saffat"
-  total_ayahs: 182
-  info: https://quran.com/surah/37/info
-  url: https:quran.com/37
-  time: "18:39"
-- number: 38
-  name: "Sad"
-  total_ayahs: 88
-  info: https://quran.com/surah/38/info
-  url: https:quran.com/38
-  time: "14:44"
-- number: 39
-  name: "Az-Zumar"
-  total_ayahs: 75
-  info: https://quran.com/surah/39/info
-  url: https:quran.com/39
-  time: "23:26"
-- number: 40
-  name: "Ghafir"
-  total_ayahs: 85
-  info: https://quran.com/surah/40/info
-  url: https:quran.com/40
-  time: "23:46"
-- number: 41
-  name: "Fussilat"
-  total_ayahs: 54
-  info: https://quran.com/surah/41/info
-  url: https:quran.com/41
-  time: "14:32"
-- number: 42
-  name: "Ash-Shuraa"
-  total_ayahs: 53
-  info: https://quran.com/surah/42/info
-  url: https:quran.com/42
-  time: "15:35"
-- number: 43
-  name: "Az-Zukhruf"
-  total_ayahs: 89
-  info: https://quran.com/surah/43/info
-  url: https:quran.com/43
-  time: "17:21"
-- number: 44
-  name: "Ad-Dukhan"
-  total_ayahs: 59
-  info: https://quran.com/surah/44/info
-  url: https:quran.com/44
-  time: "07:33"
-- number: 45
-  name: "Al-Jathiyah"
-  total_ayahs: 37
-  info: https://quran.com/surah/45/info
-  url: https:quran.com/45
-  time: "09:08"
-- number: 46
-  name: "Al-Ahqaf"
-  total_ayahs: 35
-  info: https://quran.com/surah/46/info
-  url: https:quran.com/46
-  time: "10:52"
-- number: 47
-  name: "Muhammad"
-  total_ayahs: 38
-  info: https://quran.com/surah/47/info
-  url: https:quran.com/47
-  time: "10:15"
-- number: 48
-  name: "Al-Fath"
-  total_ayahs: 29
-  info: https://quran.com/surah/48/info
-  url: https:quran.com/48
-  time: "10:01"
-- number: 49
-  name: "Al-Hujurat"
-  total_ayahs: 18
-  info: https://quran.com/surah/49/info
-  url: https:quran.com/49
-  time: "06:18"
-- number: 50
-  name: "Qaf"
-  total_ayahs: 45
-  info: https://quran.com/surah/50/info
-  url: https:quran.com/50
-  time: "07:48"
-- number: 51
-  name: "Adh-Dhariyat"
-  total_ayahs: 60
-  info: https://quran.com/surah/51/info
-  url: https:quran.com/51
-  time: "07:17"
-- number: 52
-  name: "At-Tur"
-  total_ayahs: 49
-  info: https://quran.com/surah/52/info
-  url: https:quran.com/52
-  time: "06:09"
-- number: 53
-  name: "An-Najm"
-  total_ayahs: 62
-  info: https://quran.com/surah/53/info
-  url: https:quran.com/53
-  time: "06:42"
-- number: 54
-  name: "Al-Qamar"
-  total_ayahs: 55
-  info: https://quran.com/surah/54/info
-  url: https:quran.com/54
-  time: "06:28"
-- number: 55
-  name: "Ar-Rahman"
-  total_ayahs: 78
-  info: https://quran.com/surah/55/info
-  url: https:quran.com/55
-  time: "09:03"
-- number: 56
-  name: "Al-Waqi'ah"
-  total_ayahs: 96
-  info: https://quran.com/surah/56/info
-  url: https:quran.com/56
-  time: "09:04"
-- number: 57
-  name: "Al-Hadid"
-  total_ayahs: 29
-  info: https://quran.com/surah/57/info
-  url: https:quran.com/57
-  time: "10:37"
-- number: 58
-  name: "Al-Mujadila"
-  total_ayahs: 22
-  info: https://quran.com/surah/58/info
-  url: https:quran.com/58
-  time: "08:54"
-- number: 59
-  name: "Al-Hashr"
-  total_ayahs: 24
-  info: https://quran.com/surah/59/info
-  url: https:quran.com/59
-  time: "08:11"
-- number: 60
-  name: "Al-Mumtahanah"
-  total_ayahs: 13
-  info: https://quran.com/surah/60/info
-  url: https:quran.com/60
-  time: "06:24"
-- number: 61
-  name: "As-Saf"
-  total_ayahs: 14
-  info: https://quran.com/surah/61/info
-  url: https:quran.com/61
-  time: "03:57"
-- number: 62
-  name: "Al-Jumu'ah"
-  total_ayahs: 11
-  info: https://quran.com/surah/62/info
-  url: https:quran.com/62
-  time: "03:02"
-- number: 63
-  name: "Al-Munafiqun"
-  total_ayahs: 11
-  info: https://quran.com/surah/63/info
-  url: https:quran.com/63
-  time: "03:16"
-- number: 64
-  name: "At-Taghabun"
-  total_ayahs: 18
-  info: https://quran.com/surah/64/info
-  url: https:quran.com/64
-  time: "04:16"
-- number: 65
-  name: "At-Talaq"
-  total_ayahs: 12
-  info: https://quran.com/surah/65/info
-  url: https:quran.com/65
-  time: "04:55"
-- number: 66
-  name: "At-Tahrim"
-  total_ayahs: 12
-  info: https://quran.com/surah/66/info
-  url: https:quran.com/66
-  time: "04:32"
-- number: 67
-  name: "Al-Mulk"
-  total_ayahs: 30
-  info: https://quran.com/surah/67/info
-  url: https:quran.com/67
-  time: "05:46"
-- number: 68
-  name: "Al-Qalam"
-  total_ayahs: 52
-  info: https://quran.com/surah/68/info
-  url: https:quran.com/68
-  time: "06:12"
-- number: 69
-  name: "Al-Haqqah"
-  total_ayahs: 52
-  info: https://quran.com/surah/69/info
-  url: https:quran.com/69
-  time: "05:18"
-- number: 70
-  name: "Al-Ma'arij"
-  total_ayahs: 44
-  info: https://quran.com/surah/70/info
-  url: https:quran.com/70
-  time: "04:17"
-- number: 71
-  name: "Nuh"
-  total_ayahs: 28
-  info: https://quran.com/surah/71/info
-  url: https:quran.com/71
-  time: "03:56"
-- number: 72
-  name: "Al-Jinn"
-  total_ayahs: 28
-  info: https://quran.com/surah/72/info
-  url: https:quran.com/72
-  time: "04:36"
-- number: 73
-  name: "Al-Muzzammil"
-  total_ayahs: 20
-  info: https://quran.com/surah/73/info
-  url: https:quran.com/73
-  time: "03:27"
-- number: 74
-  name: "Al-Muddaththir"
-  total_ayahs: 56
-  info: https://quran.com/surah/74/info
-  url: https:quran.com/74
-  time: "04:28"
-- number: 75
-  name: "Al-Qiyamah"
-  total_ayahs: 40
-  info: https://quran.com/surah/75/info
-  url: https:quran.com/75
-  time: "03:18"
-- number: 76
-  name: "Al-Insan"
-  total_ayahs: 31
-  info: https://quran.com/surah/76/info
-  url: https:quran.com/76
-  time: "04:29"
-- number: 77
-  name: "Al-Mursalat"
-  total_ayahs: 50
-  info: https://quran.com/surah/77/info
-  url: https:quran.com/77
-  time: "04:12"
-- number: 78
-  name: "An-Naba"
-  total_ayahs: 40
-  info: https://quran.com/surah/78/info
-  url: https:quran.com/78
-  time: "03:48"
-- number: 79
-  name: "An-Nazi'at"
-  total_ayahs: 46
-  info: https://quran.com/surah/79/info
-  url: https:quran.com/79
-  time: "03:47"
-- number: 80
-  name: "'Abasa"
-  total_ayahs: 42
-  info: https://quran.com/surah/80/info
-  url: https:quran.com/80
-  time: "02:44"
-- number: 81
-  name: "At-Takwir"
-  total_ayahs: 29
-  info: https://quran.com/surah/81/info
-  url: https:quran.com/81
-  time: "01:58"
-- number: 82
-  name: "Al-Infitar"
-  total_ayahs: 19
-  info: https://quran.com/surah/82/info
-  url: https:quran.com/82
-  time: "01:36"
-- number: 83
-  name: "Al-Mutaffifin"
-  total_ayahs: 36
-  info: https://quran.com/surah/83/info
-  url: https:quran.com/83
-  time: "03:47"
-- number: 84
-  name: "Al-Inshiqaq"
-  total_ayahs: 25
-  info: https://quran.com/surah/84/info
-  url: https:quran.com/84
-  time: "02:09"
-- number: 85
-  name: "Al-Buruj"
-  total_ayahs: 22
-  info: https://quran.com/surah/85/info
-  url: https:quran.com/85
-  time: "02:20"
-- number: 86
-  name: "At-Tariq"
-  total_ayahs: 17
-  info: https://quran.com/surah/86/info
-  url: https:quran.com/86
-  time: "01:19"
-- number: 87
-  name: "Al-A'la"
-  total_ayahs: 19
-  info: https://quran.com/surah/87/info
-  url: https:quran.com/87
-  time: "01:17"
-- number: 88
-  name: "Al-Ghashiyah"
-  total_ayahs: 26
-  info: https://quran.com/surah/88/info
-  url: https:quran.com/88
-  time: "01:45"
-- number: 89
-  name: "Al-Fajr"
-  total_ayahs: 30
-  info: https://quran.com/surah/89/info
-  url: https:quran.com/89
-  time: "02:51"
-- number: 90
-  name: "Al-Balad"
-  total_ayahs: 20
-  info: https://quran.com/surah/90/info
-  url: https:quran.com/90
-  time: "01:30"
-- number: 91
-  name: "Ash-Shams"
-  total_ayahs: 15
-  info: https://quran.com/surah/91/info
-  url: https:quran.com/91
-  time: "01:04"
-- number: 92
-  name: "Al-Layl"
-  total_ayahs: 21
-  info: https://quran.com/surah/92/info
-  url: https:quran.com/92
-  time: "01:30"
-- number: 93
-  name: "Ad-Duhaa"
-  total_ayahs: 11
-  info: https://quran.com/surah/93/info
-  url: https:quran.com/93
-  time: "00:53"
-- number: 94
-  name: "Ash-Sharh"
-  total_ayahs: 8
-  info: https://quran.com/surah/94/info
-  url: https:quran.com/94
-  time: "00:29"
-- number: 95
-  name: "At-Tin"
-  total_ayahs: 8
-  info: https://quran.com/surah/95/info
-  url: https:quran.com/95
-  time: "00:42"
-- number: 96
-  name: "Al-'Alaq"
-  total_ayahs: 19
-  info: https://quran.com/surah/96/info
-  url: https:quran.com/96
-  time: "01:16"
-- number: 97
-  name: "Al-Qadr"
-  total_ayahs: 5
-  info: https://quran.com/surah/97/info
-  url: https:quran.com/97
-  time: "00:39"
-- number: 98
-  name: "Al-Bayyinah"
-  total_ayahs: 8
-  info: https://quran.com/surah/98/info
-  url: https:quran.com/98
-  time: "01:47"
-- number: 99
-  name: "Az-Zalzalah"
-  total_ayahs: 8
-  info: https://quran.com/surah/99/info
-  url: https:quran.com/99
-  time: "00:43"
-- number: 100
-  name: "Al-'Adiyat"
-  total_ayahs: 11
-  info: https://quran.com/surah/100/info
-  url: https:quran.com/100
-  time: "00:57"
-- number: 101
-  name: "Al-Qari'ah"
-  total_ayahs: 11
-  info: https://quran.com/surah/101/info
-  url: https:quran.com/101
-  time: "00:45"
-- number: 102
-  name: "At-Takathur"
-  total_ayahs: 8
-  info: https://quran.com/surah/102/info
-  url: https:quran.com/102
-  time: "00:37"
-- number: 103
-  name: "Al-'Asr"
-  total_ayahs: 3
-  info: https://quran.com/surah/103/info
-  url: https:quran.com/103
-  time: "00:17"
-- number: 104
-  name: "Al-Humazah"
-  total_ayahs: 9
-  info: https://quran.com/surah/104/info
-  url: https:quran.com/104
-  time: "00:36"
-- number: 105
-  name: "Al-Fil"
-  total_ayahs: 5
-  info: https://quran.com/surah/105/info
-  url: https:quran.com/105
-  time: "00:31"
-- number: 106
-  name: "Quraysh"
-  total_ayahs: 4
-  info: https://quran.com/surah/106/info
-  url: https:quran.com/106
-  time: "00:27"
-- number: 107
-  name: "Al-Ma'un"
-  total_ayahs: 7
-  info: https://quran.com/surah/107/info
-  url: https:quran.com/107
-  time: "00:33"
-- number: 108
-  name: "Al-Kawthar"
-  total_ayahs: 3
-  info: https://quran.com/surah/108/info
-  url: https:quran.com/108
-  time: "00:14"
-- number: 109
-  name: "Al-Kafirun"
-  total_ayahs: 6
-  info: https://quran.com/surah/109/info
-  url: https:quran.com/109
-  time: "00:29"
-- number: 110
-  name: "An-Nasr"
-  total_ayahs: 3
-  info: https://quran.com/surah/110/info
-  url: https:quran.com/110
-  time: "00:21"
-- number: 111
-  name: "Al-Masad"
-  total_ayahs: 5
-  info: https://quran.com/surah/111/info
-  url: https:quran.com/111
-  time: "00:25"
-- number: 112
-  name: "Al-Ikhlas"
-  total_ayahs: 4
-  info: https://quran.com/surah/112/info
-  url: https:quran.com/112
-  time: "00:14"
-- number: 113
-  name: "Al-Falaq"
-  total_ayahs: 5
-  info: https://quran.com/surah/113/info
-  url: https:quran.com/113
-  time: "00:23"
-- number: 114
-  name: "An-Nas"
-  total_ayahs: 6
-  info: https://quran.com/surah/114/info
-  url: https:quran.com/114
-  time: "00:32"
+root_page: DATABASES_PAGE
+
+databases:
+  - name: quran
+    icon: book
+    properties:
+      - block: Number
+        params:
+          name: Number
+      - block: Checkbox
+        params:
+          name: Memorized
+      - block: Text
+        params:
+          name: Time recitation
+      - block: Number
+        params:
+          name: Time recitation in seconds
+      - block: Number
+        params:
+          name: Total ayahs
+      - block: Number
+        params:
+          name: Ayah
+      - block: Formula
+        params:
+          name: Progress
+          formula: "prop('Ayah')/prop('Total ayahs')"
+      - block: Url
+        params:
+          name: Surah info
+      - block: Url
+        params:
+          name: Url
+
+surahs:
+  - number: 1
+    name: "Al-Fatihah"
+    total_ayahs: 7
+    info: https://quran.com/surah/1/info
+    url: https:quran.com/1
+    time: "00:52"
+  - number: 2
+    name: "Al-Baqarah"
+    total_ayahs: 286
+    info: https://quran.com/surah/2/info
+    url: https:quran.com/2
+    time: "01:53:40"
+  - number: 3
+    name: "Ali 'Imran"
+    total_ayahs: 200
+    info: https://quran.com/surah/3/info
+    url: https:quran.com/3
+    time: "01:04:54"
+  - number: 4
+    name: "An-Nisa"
+    total_ayahs: 176
+    info: https://quran.com/surah/4/info
+    url: https:quran.com/4
+    time: "01:07:15"
+  - number: 5
+    name: "Al-Ma'idah"
+    total_ayahs: 120
+    info: https://quran.com/surah/5/info
+    url: https:quran.com/5
+    time: "49:17"
+  - number: 6
+    name: "Al-An'am"
+    total_ayahs: 165
+    info: https://quran.com/surah/6/info
+    url: https:quran.com/6
+    time: "52:19"
+  - number: 7
+    name: "Al-A'raf"
+    total_ayahs: 206
+    info: https://quran.com/surah/7/info
+    url: https:quran.com/7
+    time: "01:02:55"
+  - number: 8
+    name: "Al-Anfal"
+    total_ayahs: 75
+    info: https://quran.com/surah/8/info
+    url: https:quran.com/8
+    time: "22:59"
+  - number: 9
+    name: "At-Tawbah"
+    total_ayahs: 129
+    info: https://quran.com/surah/9/info
+    url: https:quran.com/9
+    time: "44:20"
+  - number: 10
+    name: "Yunus"
+    total_ayahs: 109
+    info: https://quran.com/surah/10/info
+    url: https:quran.com/10
+    time: "30:48"
+  - number: 11
+    name: "Hud"
+    total_ayahs: 123
+    info: https://quran.com/surah/11/info
+    url: https:quran.com/11
+    time: "34:16"
+  - number: 12
+    name: "Yusuf"
+    total_ayahs: 111
+    info: https://quran.com/surah/12/info
+    url: https:quran.com/12
+    time: "30:42"
+  - number: 13
+    name: "Ar-Ra'd"
+    total_ayahs: 43
+    info: https://quran.com/surah/13/info
+    url: https:quran.com/13
+    time: "14:58"
+  - number: 14
+    name: "Ibrahim"
+    total_ayahs: 52
+    info: https://quran.com/surah/14/info
+    url: https:quran.com/14
+    time: "16:22"
+  - number: 15
+    name: "Al-Hijr"
+    total_ayahs: 99
+    info: https://quran.com/surah/15/info
+    url: https:quran.com/15
+    time: "12:42"
+  - number: 16
+    name: "An-Nahl"
+    total_ayahs: 128
+    info: https://quran.com/surah/16/info
+    url: https:quran.com/16
+    time: "32:28"
+  - number: 17
+    name: "Al-Isra"
+    total_ayahs: 111
+    info: https://quran.com/surah/17/info
+    url: https:quran.com/17
+    time: "26:22"
+  - number: 18
+    name: "Al-Kahf"
+    total_ayahs: 110
+    info: https://quran.com/surah/18/info
+    url: https:quran.com/18
+    time: "25:57"
+  - number: 19
+    name: "Maryam"
+    total_ayahs: 98
+    info: https://quran.com/surah/19/info
+    url: https:quran.com/19
+    time: "16:19"
+  - number: 20
+    name: "Taha"
+    total_ayahs: 135
+    info: https://quran.com/surah/20/info
+    url: https:quran.com/20
+    time: "21:26"
+  - number: 21
+    name: "Al-Anbya"
+    total_ayahs: 112
+    info: https://quran.com/surah/21/info
+    url: https:quran.com/21
+    time: "20:54"
+  - number: 22
+    name: "Al-Haj"
+    total_ayahs: 78
+    info: https://quran.com/surah/22/info
+    url: https:quran.com/22
+    time: "21:42"
+  - number: 23
+    name: "Al-Mu'minun"
+    total_ayahs: 118
+    info: https://quran.com/surah/23/info
+    url: https:quran.com/23
+    time: "18:52"
+  - number: 24
+    name: "An-Nur"
+    total_ayahs: 64
+    info: https://quran.com/surah/24/info
+    url: https:quran.com/24
+    time: "22:55"
+  - number: 25
+    name: "Al-Furqan"
+    total_ayahs: 77
+    info: https://quran.com/surah/25/info
+    url: https:quran.com/25
+    time: "15:34"
+  - number: 26
+    name: "Ash-Shu'ara"
+    total_ayahs: 227
+    info: https://quran.com/surah/26/info
+    url: https:quran.com/26
+    time: "24:54"
+  - number: 27
+    name: "An-Naml"
+    total_ayahs: 93
+    info: https://quran.com/surah/27/info
+    url: https:quran.com/27
+    time: "21:07"
+  - number: 28
+    name: "Al-Qasas"
+    total_ayahs: 88
+    info: https://quran.com/surah/28/info
+    url: https:quran.com/28
+    time: "24:38"
+  - number: 29
+    name: "Al-'Ankabut"
+    total_ayahs: 69
+    info: https://quran.com/surah/29/info
+    url: https:quran.com/29
+    time: "17:07"
+  - number: 30
+    name: "Ar-Rum"
+    total_ayahs: 60
+    info: https://quran.com/surah/30/info
+    url: https:quran.com/30
+    time: "14:25"
+  - number: 31
+    name: "Luqman"
+    total_ayahs: 34
+    info: https://quran.com/surah/31/info
+    url: https:quran.com/31
+    time: "09:14"
+  - number: 32
+    name: "As-Sajdah"
+    total_ayahs: 30
+    info: https://quran.com/surah/32/info
+    url: https:quran.com/32
+    time: "07:26"
+  - number: 33
+    name: "Al-Ahzab"
+    total_ayahs: 73
+    info: https://quran.com/surah/33/info
+    url: https:quran.com/33
+    time: "23:54"
+  - number: 34
+    name: "Saba"
+    total_ayahs: 54
+    info: https://quran.com/surah/34/info
+    url: https:quran.com/34
+    time: "15:33"
+  - number: 35
+    name: "Fatir"
+    total_ayahs: 45
+    info: https://quran.com/surah/35/info
+    url: https:quran.com/35
+    time: "15:15"
+  - number: 36
+    name: "Ya-Sin"
+    total_ayahs: 83
+    info: https://quran.com/surah/36/info
+    url: https:quran.com/36
+    time: "13:00"
+  - number: 37
+    name: "As-Saffat"
+    total_ayahs: 182
+    info: https://quran.com/surah/37/info
+    url: https:quran.com/37
+    time: "18:39"
+  - number: 38
+    name: "Sad"
+    total_ayahs: 88
+    info: https://quran.com/surah/38/info
+    url: https:quran.com/38
+    time: "14:44"
+  - number: 39
+    name: "Az-Zumar"
+    total_ayahs: 75
+    info: https://quran.com/surah/39/info
+    url: https:quran.com/39
+    time: "23:26"
+  - number: 40
+    name: "Ghafir"
+    total_ayahs: 85
+    info: https://quran.com/surah/40/info
+    url: https:quran.com/40
+    time: "23:46"
+  - number: 41
+    name: "Fussilat"
+    total_ayahs: 54
+    info: https://quran.com/surah/41/info
+    url: https:quran.com/41
+    time: "14:32"
+  - number: 42
+    name: "Ash-Shuraa"
+    total_ayahs: 53
+    info: https://quran.com/surah/42/info
+    url: https:quran.com/42
+    time: "15:35"
+  - number: 43
+    name: "Az-Zukhruf"
+    total_ayahs: 89
+    info: https://quran.com/surah/43/info
+    url: https:quran.com/43
+    time: "17:21"
+  - number: 44
+    name: "Ad-Dukhan"
+    total_ayahs: 59
+    info: https://quran.com/surah/44/info
+    url: https:quran.com/44
+    time: "07:33"
+  - number: 45
+    name: "Al-Jathiyah"
+    total_ayahs: 37
+    info: https://quran.com/surah/45/info
+    url: https:quran.com/45
+    time: "09:08"
+  - number: 46
+    name: "Al-Ahqaf"
+    total_ayahs: 35
+    info: https://quran.com/surah/46/info
+    url: https:quran.com/46
+    time: "10:52"
+  - number: 47
+    name: "Muhammad"
+    total_ayahs: 38
+    info: https://quran.com/surah/47/info
+    url: https:quran.com/47
+    time: "10:15"
+  - number: 48
+    name: "Al-Fath"
+    total_ayahs: 29
+    info: https://quran.com/surah/48/info
+    url: https:quran.com/48
+    time: "10:01"
+  - number: 49
+    name: "Al-Hujurat"
+    total_ayahs: 18
+    info: https://quran.com/surah/49/info
+    url: https:quran.com/49
+    time: "06:18"
+  - number: 50
+    name: "Qaf"
+    total_ayahs: 45
+    info: https://quran.com/surah/50/info
+    url: https:quran.com/50
+    time: "07:48"
+  - number: 51
+    name: "Adh-Dhariyat"
+    total_ayahs: 60
+    info: https://quran.com/surah/51/info
+    url: https:quran.com/51
+    time: "07:17"
+  - number: 52
+    name: "At-Tur"
+    total_ayahs: 49
+    info: https://quran.com/surah/52/info
+    url: https:quran.com/52
+    time: "06:09"
+  - number: 53
+    name: "An-Najm"
+    total_ayahs: 62
+    info: https://quran.com/surah/53/info
+    url: https:quran.com/53
+    time: "06:42"
+  - number: 54
+    name: "Al-Qamar"
+    total_ayahs: 55
+    info: https://quran.com/surah/54/info
+    url: https:quran.com/54
+    time: "06:28"
+  - number: 55
+    name: "Ar-Rahman"
+    total_ayahs: 78
+    info: https://quran.com/surah/55/info
+    url: https:quran.com/55
+    time: "09:03"
+  - number: 56
+    name: "Al-Waqi'ah"
+    total_ayahs: 96
+    info: https://quran.com/surah/56/info
+    url: https:quran.com/56
+    time: "09:04"
+  - number: 57
+    name: "Al-Hadid"
+    total_ayahs: 29
+    info: https://quran.com/surah/57/info
+    url: https:quran.com/57
+    time: "10:37"
+  - number: 58
+    name: "Al-Mujadila"
+    total_ayahs: 22
+    info: https://quran.com/surah/58/info
+    url: https:quran.com/58
+    time: "08:54"
+  - number: 59
+    name: "Al-Hashr"
+    total_ayahs: 24
+    info: https://quran.com/surah/59/info
+    url: https:quran.com/59
+    time: "08:11"
+  - number: 60
+    name: "Al-Mumtahanah"
+    total_ayahs: 13
+    info: https://quran.com/surah/60/info
+    url: https:quran.com/60
+    time: "06:24"
+  - number: 61
+    name: "As-Saf"
+    total_ayahs: 14
+    info: https://quran.com/surah/61/info
+    url: https:quran.com/61
+    time: "03:57"
+  - number: 62
+    name: "Al-Jumu'ah"
+    total_ayahs: 11
+    info: https://quran.com/surah/62/info
+    url: https:quran.com/62
+    time: "03:02"
+  - number: 63
+    name: "Al-Munafiqun"
+    total_ayahs: 11
+    info: https://quran.com/surah/63/info
+    url: https:quran.com/63
+    time: "03:16"
+  - number: 64
+    name: "At-Taghabun"
+    total_ayahs: 18
+    info: https://quran.com/surah/64/info
+    url: https:quran.com/64
+    time: "04:16"
+  - number: 65
+    name: "At-Talaq"
+    total_ayahs: 12
+    info: https://quran.com/surah/65/info
+    url: https:quran.com/65
+    time: "04:55"
+  - number: 66
+    name: "At-Tahrim"
+    total_ayahs: 12
+    info: https://quran.com/surah/66/info
+    url: https:quran.com/66
+    time: "04:32"
+  - number: 67
+    name: "Al-Mulk"
+    total_ayahs: 30
+    info: https://quran.com/surah/67/info
+    url: https:quran.com/67
+    time: "05:46"
+  - number: 68
+    name: "Al-Qalam"
+    total_ayahs: 52
+    info: https://quran.com/surah/68/info
+    url: https:quran.com/68
+    time: "06:12"
+  - number: 69
+    name: "Al-Haqqah"
+    total_ayahs: 52
+    info: https://quran.com/surah/69/info
+    url: https:quran.com/69
+    time: "05:18"
+  - number: 70
+    name: "Al-Ma'arij"
+    total_ayahs: 44
+    info: https://quran.com/surah/70/info
+    url: https:quran.com/70
+    time: "04:17"
+  - number: 71
+    name: "Nuh"
+    total_ayahs: 28
+    info: https://quran.com/surah/71/info
+    url: https:quran.com/71
+    time: "03:56"
+  - number: 72
+    name: "Al-Jinn"
+    total_ayahs: 28
+    info: https://quran.com/surah/72/info
+    url: https:quran.com/72
+    time: "04:36"
+  - number: 73
+    name: "Al-Muzzammil"
+    total_ayahs: 20
+    info: https://quran.com/surah/73/info
+    url: https:quran.com/73
+    time: "03:27"
+  - number: 74
+    name: "Al-Muddaththir"
+    total_ayahs: 56
+    info: https://quran.com/surah/74/info
+    url: https:quran.com/74
+    time: "04:28"
+  - number: 75
+    name: "Al-Qiyamah"
+    total_ayahs: 40
+    info: https://quran.com/surah/75/info
+    url: https:quran.com/75
+    time: "03:18"
+  - number: 76
+    name: "Al-Insan"
+    total_ayahs: 31
+    info: https://quran.com/surah/76/info
+    url: https:quran.com/76
+    time: "04:29"
+  - number: 77
+    name: "Al-Mursalat"
+    total_ayahs: 50
+    info: https://quran.com/surah/77/info
+    url: https:quran.com/77
+    time: "04:12"
+  - number: 78
+    name: "An-Naba"
+    total_ayahs: 40
+    info: https://quran.com/surah/78/info
+    url: https:quran.com/78
+    time: "03:48"
+  - number: 79
+    name: "An-Nazi'at"
+    total_ayahs: 46
+    info: https://quran.com/surah/79/info
+    url: https:quran.com/79
+    time: "03:47"
+  - number: 80
+    name: "'Abasa"
+    total_ayahs: 42
+    info: https://quran.com/surah/80/info
+    url: https:quran.com/80
+    time: "02:44"
+  - number: 81
+    name: "At-Takwir"
+    total_ayahs: 29
+    info: https://quran.com/surah/81/info
+    url: https:quran.com/81
+    time: "01:58"
+  - number: 82
+    name: "Al-Infitar"
+    total_ayahs: 19
+    info: https://quran.com/surah/82/info
+    url: https:quran.com/82
+    time: "01:36"
+  - number: 83
+    name: "Al-Mutaffifin"
+    total_ayahs: 36
+    info: https://quran.com/surah/83/info
+    url: https:quran.com/83
+    time: "03:47"
+  - number: 84
+    name: "Al-Inshiqaq"
+    total_ayahs: 25
+    info: https://quran.com/surah/84/info
+    url: https:quran.com/84
+    time: "02:09"
+  - number: 85
+    name: "Al-Buruj"
+    total_ayahs: 22
+    info: https://quran.com/surah/85/info
+    url: https:quran.com/85
+    time: "02:20"
+  - number: 86
+    name: "At-Tariq"
+    total_ayahs: 17
+    info: https://quran.com/surah/86/info
+    url: https:quran.com/86
+    time: "01:19"
+  - number: 87
+    name: "Al-A'la"
+    total_ayahs: 19
+    info: https://quran.com/surah/87/info
+    url: https:quran.com/87
+    time: "01:17"
+  - number: 88
+    name: "Al-Ghashiyah"
+    total_ayahs: 26
+    info: https://quran.com/surah/88/info
+    url: https:quran.com/88
+    time: "01:45"
+  - number: 89
+    name: "Al-Fajr"
+    total_ayahs: 30
+    info: https://quran.com/surah/89/info
+    url: https:quran.com/89
+    time: "02:51"
+  - number: 90
+    name: "Al-Balad"
+    total_ayahs: 20
+    info: https://quran.com/surah/90/info
+    url: https:quran.com/90
+    time: "01:30"
+  - number: 91
+    name: "Ash-Shams"
+    total_ayahs: 15
+    info: https://quran.com/surah/91/info
+    url: https:quran.com/91
+    time: "01:04"
+  - number: 92
+    name: "Al-Layl"
+    total_ayahs: 21
+    info: https://quran.com/surah/92/info
+    url: https:quran.com/92
+    time: "01:30"
+  - number: 93
+    name: "Ad-Duhaa"
+    total_ayahs: 11
+    info: https://quran.com/surah/93/info
+    url: https:quran.com/93
+    time: "00:53"
+  - number: 94
+    name: "Ash-Sharh"
+    total_ayahs: 8
+    info: https://quran.com/surah/94/info
+    url: https:quran.com/94
+    time: "00:29"
+  - number: 95
+    name: "At-Tin"
+    total_ayahs: 8
+    info: https://quran.com/surah/95/info
+    url: https:quran.com/95
+    time: "00:42"
+  - number: 96
+    name: "Al-'Alaq"
+    total_ayahs: 19
+    info: https://quran.com/surah/96/info
+    url: https:quran.com/96
+    time: "01:16"
+  - number: 97
+    name: "Al-Qadr"
+    total_ayahs: 5
+    info: https://quran.com/surah/97/info
+    url: https:quran.com/97
+    time: "00:39"
+  - number: 98
+    name: "Al-Bayyinah"
+    total_ayahs: 8
+    info: https://quran.com/surah/98/info
+    url: https:quran.com/98
+    time: "01:47"
+  - number: 99
+    name: "Az-Zalzalah"
+    total_ayahs: 8
+    info: https://quran.com/surah/99/info
+    url: https:quran.com/99
+    time: "00:43"
+  - number: 100
+    name: "Al-'Adiyat"
+    total_ayahs: 11
+    info: https://quran.com/surah/100/info
+    url: https:quran.com/100
+    time: "00:57"
+  - number: 101
+    name: "Al-Qari'ah"
+    total_ayahs: 11
+    info: https://quran.com/surah/101/info
+    url: https:quran.com/101
+    time: "00:45"
+  - number: 102
+    name: "At-Takathur"
+    total_ayahs: 8
+    info: https://quran.com/surah/102/info
+    url: https:quran.com/102
+    time: "00:37"
+  - number: 103
+    name: "Al-'Asr"
+    total_ayahs: 3
+    info: https://quran.com/surah/103/info
+    url: https:quran.com/103
+    time: "00:17"
+  - number: 104
+    name: "Al-Humazah"
+    total_ayahs: 9
+    info: https://quran.com/surah/104/info
+    url: https:quran.com/104
+    time: "00:36"
+  - number: 105
+    name: "Al-Fil"
+    total_ayahs: 5
+    info: https://quran.com/surah/105/info
+    url: https:quran.com/105
+    time: "00:31"
+  - number: 106
+    name: "Quraysh"
+    total_ayahs: 4
+    info: https://quran.com/surah/106/info
+    url: https:quran.com/106
+    time: "00:27"
+  - number: 107
+    name: "Al-Ma'un"
+    total_ayahs: 7
+    info: https://quran.com/surah/107/info
+    url: https:quran.com/107
+    time: "00:33"
+  - number: 108
+    name: "Al-Kawthar"
+    total_ayahs: 3
+    info: https://quran.com/surah/108/info
+    url: https:quran.com/108
+    time: "00:14"
+  - number: 109
+    name: "Al-Kafirun"
+    total_ayahs: 6
+    info: https://quran.com/surah/109/info
+    url: https:quran.com/109
+    time: "00:29"
+  - number: 110
+    name: "An-Nasr"
+    total_ayahs: 3
+    info: https://quran.com/surah/110/info
+    url: https:quran.com/110
+    time: "00:21"
+  - number: 111
+    name: "Al-Masad"
+    total_ayahs: 5
+    info: https://quran.com/surah/111/info
+    url: https:quran.com/111
+    time: "00:25"
+  - number: 112
+    name: "Al-Ikhlas"
+    total_ayahs: 4
+    info: https://quran.com/surah/112/info
+    url: https:quran.com/112
+    time: "00:14"
+  - number: 113
+    name: "Al-Falaq"
+    total_ayahs: 5
+    info: https://quran.com/surah/113/info
+    url: https:quran.com/113
+    time: "00:23"
+  - number: 114
+    name: "An-Nas"
+    total_ayahs: 6
+    info: https://quran.com/surah/114/info
+    url: https:quran.com/114
+    time: "00:32"

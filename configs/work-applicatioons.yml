@@ -1,0 +1,17 @@
+root_page: DATABASES_PAGE
+
+databases:
+  - name: work-applications
+    icon: briefcase
+    properties:
+      - block: Url
+        params:
+          name: Url
+      - block: Text
+        params:
+          name: Subject
+      - block: Select
+        params:
+          name: Status
+          init_options: [["To apply", "gray"], ["In talk", "blue"], ["Refused", "red"], ["Canceled", "red"], ["Succeded", "green"]]
+

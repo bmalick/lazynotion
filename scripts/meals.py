@@ -4,7 +4,7 @@ from src import lazynotion
 
 if __name__=="__main__":
     saved_ids = lazynotion.utils.get_db_ids(lazynotion.utils.get_account_name())
-    meals = lazynotion.utils.read_yml("configs/meals.yml")
+    meals = lazynotion.utils.read_yml("configs/meals.yml")["meals"]
     meal_icon = lazynotion.icons.IconUrl(name="dining")
 
     db_id = saved_ids["meals"]

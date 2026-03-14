@@ -1,0 +1,70 @@
+root_page: DATABASES_PAGE
+
+
+databases:
+  - name: books
+    icon: book-closed
+    properties:
+      - block: Url
+        params:
+          name: Url
+      - block: Text
+        params:
+          name: Author
+      - block: MultiSelect
+        params:
+          name: Genre
+          init_options: [["Fiction", "default"], ["Sci-fi", "default"], ["Novel", "default"], ["Machine learning", "default"], ["Mathematics", "default"]]
+      - block: Date
+        params:
+          name: Start
+      - block: Date
+        params:
+          name: End
+      - block: Number
+        params:
+          name: Total pages
+      - block: Number
+        params:
+          name: Current page
+      - block: Formula
+        params:
+          name: Progress
+          formula: "prop('Current page') / prop('Total pages')"
+      - block: Formula
+        params:
+          name: Pages
+          formula: "format(prop('Current page')) + format('/') + format(prop('Total pages'))"
+      - block: Formula
+        params:
+          name: Duration reading
+          formula: "format(dateBetween(prop('End'), prop('Start'), 'days')) + ' days'"
+      - block: Select
+        params:
+          name: Priority
+          init_options: [["p1", "red"], ["p2", "blue"], ["p3", "green"], ["p4", "gray"]]
+      # - block: Status
+      - block: Select
+        params:
+          name: Status
+          init_options: [["To read", "gray"], ["Reading", "blue"], ["Dropped", "red"], ["Read", "green"]]
+      - block: Text
+        params:
+          name: Description
+
+
+  - name: book-quotes
+    icon: bookmark
+    properties:
+      - block: Text
+        params:
+          name: Text
+
+
+
+relations:
+  - db1: book-quotes
+    p1: Books
+    db2: books
+    p2: Quotes
+    dual_prop: true
