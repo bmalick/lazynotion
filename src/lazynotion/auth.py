@@ -5,7 +5,7 @@ def headers() -> Dict[str,str]:
     api_key = os.environ["NOTION_API_KEY"]
     return {
         "accept": "application/json",
-        "Notion-Version": "2022-06-28",
+        "Notion-Version": "2025-09-03",
         "content-type": "application/json",
         "Authorization": "Bearer %s" % api_key
     }

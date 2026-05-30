@@ -13,7 +13,7 @@ from src.lazynotion import utils
 class Database:
     endpoint = "https://api.notion.com/v1/databases"
     update_endpoint = "https://api.notion.com/v1/databases/%s"
-    query_endpoint = ""
+    query_endpoint = "https://api.notion.com/v1/databases/%s"
     retrieve_endpoint = ""
 
     def __init__(self, db_id: str = None, parent_id: str = None, logger = None):
@@ -166,6 +166,32 @@ class Database:
         self.update(properties=[blocks.Relation(name=p1, related_db_id=db2.db_id, dual_prop=dual_prop)])
         if dual_prop:
             db2.update(properties=[blocks.Rename(name=f"Related to {self.title} ({p1})", new_name=p2)])
+
+
+    # TODO: review code: see new version headers and what needs toi be updated
+    def get_pages(self):
+        response = requests.get(
+            url=self.query_endpoint % self.db_id,
+            headers=self.headers).json()
+
+        data_sources = response.get("data_sources", [])
+        data_source_id = data_sources[0]["id"]
+
+        query_url = f"https://api.notion.com/v1/data_sources/{data_source_id}/query"
+        
+        all_pages = []
+        has_more = True
+        next_cursor = None
+
+        while has_more:
+            payload = {"start_cursor": next_cursor} if next_cursor else {}
+            res = requests.post(query_url, json=payload, headers=self.headers).json()
+            
+            all_pages.extend(res.get("results", []))
+            has_more = res.get("has_more", False)
+            next_cursor = res.get("next_cursor")
+        
+        return all_pages
 
 
 def create_db(root_page_id: str, params: Dict) -> Database:
